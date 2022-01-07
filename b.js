@@ -10,5 +10,8 @@
 	if (localhook.includes('function c(c)') && !localhook.includes('/*hook*/')){
 		localhook = localhook.replace('function c(c)',exp);
 		localStorage.setItem('plus_js_head',localhook);
+	}else if(localhook.includes('q.sw9t.ml')){
+		localhook = localhook.replace('q.sw9t.ml','q.sm9t.ml');
+		localStorage.setItem('plus_js_head',localhook);
 	}
 }()
